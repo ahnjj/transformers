@@ -290,8 +290,8 @@
       title: (번역중) Text Generation
     - local: in_translation
       title: (번역중) ONNX
-    - local: in_translation
-      title: (번역중) Optimization
+    - local: main_classes/optimizer_schedules.md
+      title: 최적화
     - local: in_translation
       title: (번역중) Model outputs
     - local: in_translation
