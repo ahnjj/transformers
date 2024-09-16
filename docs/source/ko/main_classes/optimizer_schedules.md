@@ -14,14 +14,14 @@ rendered properly in your Markdown viewer.
 
 -->
 
-# Optimization
+# 최적화(Optimization)
 
-The `.optimization` module provides:
+`.optimization` 모듈은 다음을 제공합니다:
 
-- an optimizer with weight decay fixed that can be used to fine-tuned models, and
-- several schedules in the form of schedule objects that inherit from `_LRSchedule`:
-- a gradient accumulation class to accumulate the gradients of multiple batches
-
+- 미세 조정된 모델에 사용할 수 있는 가중치 감쇠(weight decay)가 고정된 최적화 도구
+- _LRSchedule에서 상속된 스케줄 객체 형태의 여러 스케줄들
+- 여러 배치(batch)의 그래디언트를 누적할 수 있는 그래디언트 누적 클래스
+  
 ## AdamW (PyTorch)
 
 [[autodoc]] AdamW
@@ -38,7 +38,7 @@ The `.optimization` module provides:
 
 ## Schedules
 
-### Learning Rate Schedules (PyTorch)
+### 학습률 스케쥴 (PyTorch)
 
 [[autodoc]] SchedulerType
 
