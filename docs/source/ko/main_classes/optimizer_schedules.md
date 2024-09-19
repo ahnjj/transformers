@@ -18,9 +18,9 @@ rendered properly in your Markdown viewer.
 
 `.optimization` 모듈은 다음을 제공합니다:
 
-- 미세 조정된 모델에 사용할 수 있는 가중치 감쇠(weight decay)가 고정된 최적화 도구
-- _LRSchedule에서 상속된 스케줄 객체 형태의 여러 스케줄들
-- 여러 배치(batch)의 그래디언트를 누적할 수 있는 그래디언트 누적 클래스
+- 미세 조정된 모델에 사용할 수 있는 가중치 감쇠(weight decay)가 고정된 옵티마이저
+- `_LRSchedule`을 상속하는 스케줄 객체 형태의 여러 스케줄들
+- 여러 배치의 그래디언트를 누적할 수 있는 그래디언트 누적 클래스
   
 ## AdamW (PyTorch)
 
@@ -36,7 +36,7 @@ rendered properly in your Markdown viewer.
 
 [[autodoc]] create_optimizer
 
-## Schedules
+## 스케쥴(Schedules)
 
 ### 학습률 스케쥴 (PyTorch)
 
