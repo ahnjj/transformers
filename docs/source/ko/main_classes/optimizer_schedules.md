@@ -22,23 +22,23 @@ rendered properly in your Markdown viewer.
 - `_LRSchedule`을 상속하는 스케줄 객체 형태의 여러 스케줄들
 - 여러 배치의 그래디언트를 누적할 수 있는 그래디언트 누적 클래스
   
-## AdamW (PyTorch)
+## AdamW (PyTorch) [[transformers.AdamW]
 
 [[autodoc]] AdamW
 
-## AdaFactor (PyTorch)
+## AdaFactor (PyTorch) [[transformers.Adafactor]]
 
 [[autodoc]] Adafactor
 
-## AdamWeightDecay (TensorFlow)
+## AdamWeightDecay (TensorFlow) [[transformers.AdamWeightDecay]]
 
 [[autodoc]] AdamWeightDecay
 
 [[autodoc]] create_optimizer
 
-## 스케쥴(Schedules)
+## 스케쥴(Schedules) [[schedules]]
 
-### 학습률 스케쥴 (PyTorch)
+### 학습률 스케쥴 (PyTorch) [[transformers.SchedulerType]]
 
 [[autodoc]] SchedulerType
 
@@ -68,12 +68,12 @@ rendered properly in your Markdown viewer.
 
 [[autodoc]] get_wsd_schedule
 
-### Warmup (TensorFlow)
+### Warmup (TensorFlow) [[transformers.WarmUp]]
 
 [[autodoc]] WarmUp
 
-## Gradient Strategies
+## 그래디언트 전략 [[gradient-strategies]]
 
-### GradientAccumulator (TensorFlow)
+### GradientAccumulator (TensorFlow) [[transformers.GradientAccumulator]]
 
 [[autodoc]] GradientAccumulator
